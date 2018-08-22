@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-transactional-method",
+  "version": "1.0.0",
+  "description": "A helper utility for building methods which should interact with Sequelize and must support executing in a standalone transaction or bundled together with a supplied one.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpm-git/sequelize-transactional-method.git"
+  },
+  "author": {
+    "name": "Floatplane Media Inc.",
+    "email": "it@floatplanemedia.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpm-git/sequelize-transactional-method/issues"
+  },
+  "homepage": "https://github.com/fpm-git/sequelize-transactional-method#readme",
+  "devDependencies": {
+    "sequelize": "^4.38.0"
+  }
+}
